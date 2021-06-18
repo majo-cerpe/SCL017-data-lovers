@@ -8,6 +8,7 @@ export default {
     },
     "about": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
     "img": "https://www.serebii.net/pokemongo/pokemon/001.png",
+    "imgGrande": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
     "size": {
       "height": "0.71 m",
       "weight": "6.9 kg"

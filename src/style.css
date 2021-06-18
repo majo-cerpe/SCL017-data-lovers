@@ -1,0 +1,20 @@
+*{
+margin:10px;
+}
+
+header{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.pokemonCardContainer{
+    display: flex;
+}
+
+.pokemonCard{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
