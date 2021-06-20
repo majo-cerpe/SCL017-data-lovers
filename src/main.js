@@ -10,9 +10,6 @@ const containerRoot = document.getElementById('root');
 
 data.pokemon.forEach(element => {
 
-
-
-
     containerRoot.innerHTML += `<div id="pokemonCardContainer" class="pokemonCardContainer">
                                     <div id="pokemonCard" class="pokemonCard">
                                         <div>${element.num}</div>
