@@ -8,16 +8,45 @@ console.log(data);
 
 const containerRoot = document.getElementById('root');
 
-data.pokemon.forEach(element => {
 
-    containerRoot.innerHTML += `<div id="pokemonCardContainer" class="pokemonCardContainer">
-                                    <div id="pokemonCard" class="pokemonCard">
-                                        <div>${element.num}</div>
-                                        <div><img src=${element.img}></div>
-                                        <div>${element.name}</div>
-                                        <div>${element.type}</div>
-                                    </div> 
-                                </div>`
+
+/* document.body.onload = addElement;
+function addElement() {
+    //    crea un nuevo div
+    //     y añade contenido
+    var divInputButton = document.createElement("div");
+    divInputButton.className = "divInputButton"
+    var inputSearch = document.createElement("input");
+    inputSearch.value = "Ingresa el nombre de un pokemon";
+    inputSearch.className = "inputSearch"
+    divInputButton.appendChild(inputSearch);
+    var btnSearch = document.createElement("button");
+    btnSearch.type = "button";
+    btnSearch.innerText = "buscar";
+    btnSearch.className = "btnSearch"
+    divInputButton.appendChild(btnSearch);
+    //   //insertar el div entre el root y el container de las cartas
+    containerRoot.insertBefore(divInputButton);
+}
+ */
+
+let htmlCode = '';
+
+data.pokemon.forEach(element => {
+    htmlCode += `<div id="pokemonCard" class="pokemonCard">
+                    <div class="num">${"#" + element.num}</div>
+                    <img class= "img" src=${element.img}>
+                    <div class="name">${element.name}</div>
+                    <div class=type>`
+
+    element.type.forEach(type => {
+        htmlCode += `<div class="${type}">${type}</div>`
+    });
+
+    htmlCode += `</div>
+                 </div>`
+
+    containerRoot.innerHTML = htmlCode;
 });
 
 

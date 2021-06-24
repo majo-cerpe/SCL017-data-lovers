@@ -3,17 +3,37 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
   <title>Data Lovers</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="pokemonTypes.css" />
 </head>
 
 <body>
 
   <header>
-    <h1>Guía pokemon go</h1>
+    <img src="img/logoDefinitivo.png" alt="logo">
   </header>
 
-  <div id="root"></div>
+  <nav>
+    <button id="guidesButton" class="guidesButton">Guías</button>
+    <button id="toolsButton" class="toolsButton">Herramientas</button>
+    <button id="eventsButton" class="eventosButton">Eventos</button>
+   
+  </nav>
+
+  <div class="searchEngine">
+    <input type="text" id="searchInput" placeholder="ingresa el nombre de un pokémon" class="searchInput"/>
+    <button id="searchButton" class="searchButton">Buscar</button>
+  </div>
+
+  <div class="categories">
+    <button id="generationButton" class="generationButton">Generación</button>
+    <button id="typeButton" class="typeButton">Tipo</button>
+    <button id="weaknessButton" class="weaknessButton">Debilidad</button>
+  </div>
+
+  <div id="root" class="root"></div>
 
   <footer></footer>
 
