@@ -22,7 +22,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.69",
+    "spawnChance": "0.69",
     "stats": {
       "base-attack": "118",
       "base-defense": "111",
@@ -121,7 +121,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": "0.042",
+    "spawnChance": "0.042",
     "stats": {
       "base-attack": "151",
       "base-defense": "143",
@@ -220,7 +220,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": "0.017",
+    "spawnChance": "0.017",
     "stats": {
       "base-attack": "198",
       "base-defense": "189",
@@ -318,7 +318,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.253",
+    "spawnChance": "0.253",
     "stats": {
       "base-attack": "116",
       "base-defense": "93",
@@ -415,7 +415,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": "0.012",
+    "spawnChance": "0.012",
     "stats": {
       "base-attack": "158",
       "base-defense": "126",
@@ -520,7 +520,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": "0.0031",
+    "spawnChance": "0.0031",
     "stats": {
       "base-attack": "223",
       "base-defense": "173",
@@ -638,7 +638,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.58",
+    "spawnChance": "0.58",
     "stats": {
       "base-attack": "94",
       "base-defense": "121",
@@ -733,7 +733,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": "0.034",
+    "spawnChance": "0.034",
     "stats": {
       "base-attack": "126",
       "base-defense": "155",
@@ -828,7 +828,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": "0.0067",
+    "spawnChance": "0.0067",
     "stats": {
       "base-attack": "171",
       "base-defense": "207",
@@ -923,7 +923,7 @@ export default {
       "base-flee-rate": "0.2",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "3.032",
+    "spawnChance": "3.032",
     "stats": {
       "base-attack": "55",
       "base-defense": "55",
@@ -1003,7 +1003,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": "0.187",
+    "spawnChance": "0.187",
     "stats": {
       "base-attack": "45",
       "base-defense": "80",
@@ -1084,7 +1084,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": "0.022",
+    "spawnChance": "0.022",
     "stats": {
       "base-attack": "167",
       "base-defense": "137",
@@ -1190,7 +1190,7 @@ export default {
       "base-flee-rate": "0.2",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "7.12",
+    "spawnChance": "7.12",
     "stats": {
       "base-attack": "63",
       "base-defense": "50",
@@ -1274,7 +1274,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": "0.44",
+    "spawnChance": "0.44",
     "stats": {
       "base-attack": "46",
       "base-defense": "75",
@@ -1358,7 +1358,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": "0.051",
+    "spawnChance": "0.051",
     "stats": {
       "base-attack": "169",
       "base-defense": "130",
@@ -1464,7 +1464,7 @@ export default {
       "base-flee-rate": "0.2",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "15.98",
+    "spawnChance": "15.98",
     "stats": {
       "base-attack": "85",
       "base-defense": "73",
@@ -1560,7 +1560,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": "1.02",
+    "spawnChance": "1.02",
     "stats": {
       "base-attack": "117",
       "base-defense": "105",
@@ -1656,7 +1656,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": "0.13",
+    "spawnChance": "0.13",
     "stats": {
       "base-attack": "166",
       "base-defense": "154",
@@ -1765,7 +1765,7 @@ export default {
       "base-flee-rate": "0.2",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "13.05",
+    "spawnChance": "13.05",
     "stats": {
       "base-attack": "103",
       "base-defense": "70",
@@ -1851,7 +1851,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.41",
+    "spawnChance": "0.41",
     "stats": {
       "base-attack": "161",
       "base-defense": "139",
@@ -1938,7 +1938,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "4.73",
+    "spawnChance": "4.73",
     "stats": {
       "base-attack": "112",
       "base-defense": "60",
@@ -2036,7 +2036,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.15",
+    "spawnChance": "0.15",
     "stats": {
       "base-attack": "182",
       "base-defense": "133",
@@ -2133,7 +2133,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "2.27",
+    "spawnChance": "2.27",
     "stats": {
       "base-attack": "110",
       "base-defense": "97",
@@ -2231,7 +2231,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.072",
+    "spawnChance": "0.072",
     "stats": {
       "base-attack": "167",
       "base-defense": "153",
@@ -2322,7 +2322,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.21",
+    "spawnChance": "0.21",
     "stats": {
       "base-attack": "112",
       "base-defense": "96",
@@ -2422,7 +2422,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": "0.0076",
+    "spawnChance": "0.0076",
     "stats": {
       "base-attack": "193",
       "base-defense": "151",
@@ -2529,7 +2529,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "1.11",
+    "spawnChance": "1.11",
     "stats": {
       "base-attack": "126",
       "base-defense": "120",
@@ -2626,7 +2626,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.037",
+    "spawnChance": "0.037",
     "stats": {
       "base-attack": "182",
       "base-defense": "175",
@@ -2716,7 +2716,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "1.38",
+    "spawnChance": "1.38",
     "stats": {
       "base-attack": "86",
       "base-defense": "89",
@@ -2812,7 +2812,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": "0.088",
+    "spawnChance": "0.088",
     "stats": {
       "base-attack": "117",
       "base-defense": "120",
@@ -2909,7 +2909,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": "0.012",
+    "spawnChance": "0.012",
     "stats": {
       "base-attack": "180",
       "base-defense": "173",
@@ -3007,7 +3007,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "1.31",
+    "spawnChance": "1.31",
     "stats": {
       "base-attack": "105",
       "base-defense": "76",
@@ -3103,7 +3103,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": "0.083",
+    "spawnChance": "0.083",
     "stats": {
       "base-attack": "137",
       "base-defense": "111",
@@ -3200,7 +3200,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": "0.017",
+    "spawnChance": "0.017",
     "stats": {
       "base-attack": "204",
       "base-defense": "156",
@@ -3305,7 +3305,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": "0.92",
+    "spawnChance": "0.92",
     "stats": {
       "base-attack": "107",
       "base-defense": "108",
@@ -3399,7 +3399,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": "0.012",
+    "spawnChance": "0.012",
     "stats": {
       "base-attack": "178",
       "base-defense": "162",
@@ -3500,7 +3500,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": "0.22",
+    "spawnChance": "0.22",
     "stats": {
       "base-attack": "96",
       "base-defense": "109",
@@ -3592,7 +3592,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": "0.0077",
+    "spawnChance": "0.0077",
     "stats": {
       "base-attack": "169",
       "base-defense": "190",
@@ -3705,7 +3705,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.39",
+    "spawnChance": "0.39",
     "stats": {
       "base-attack": "80",
       "base-defense": "41",
@@ -3813,7 +3813,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.018",
+    "spawnChance": "0.018",
     "stats": {
       "base-attack": "156",
       "base-defense": "90",
@@ -3908,7 +3908,7 @@ export default {
       "base-flee-rate": "0.2",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "6.52",
+    "spawnChance": "6.52",
     "stats": {
       "base-attack": "83",
       "base-defense": "73",
@@ -4014,7 +4014,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.42",
+    "spawnChance": "0.42",
     "stats": {
       "base-attack": "161",
       "base-defense": "150",
@@ -4119,7 +4119,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.6"
     },
-    "spawn-chance": "1.02",
+    "spawnChance": "1.02",
     "stats": {
       "base-attack": "131",
       "base-defense": "112",
@@ -4229,7 +4229,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": "0.064",
+    "spawnChance": "0.064",
     "stats": {
       "base-attack": "153",
       "base-defense": "136",
@@ -4339,7 +4339,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": "0.0097",
+    "spawnChance": "0.0097",
     "stats": {
       "base-attack": "202",
       "base-defense": "167",
@@ -4438,7 +4438,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": "2.36",
+    "spawnChance": "2.36",
     "stats": {
       "base-attack": "121",
       "base-defense": "99",
@@ -4534,7 +4534,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.074",
+    "spawnChance": "0.074",
     "stats": {
       "base-attack": "165",
       "base-defense": "146",
@@ -4637,7 +4637,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "2.28",
+    "spawnChance": "2.28",
     "stats": {
       "base-attack": "100",
       "base-defense": "100",
@@ -4731,7 +4731,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.072",
+    "spawnChance": "0.072",
     "stats": {
       "base-attack": "179",
       "base-defense": "143",
@@ -4838,7 +4838,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.4",
+    "spawnChance": "0.4",
     "stats": {
       "base-attack": "109",
       "base-defense": "78",
@@ -4935,7 +4935,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.014",
+    "spawnChance": "0.014",
     "stats": {
       "base-attack": "167",
       "base-defense": "134",
@@ -5032,7 +5032,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.86",
+    "spawnChance": "0.86",
     "stats": {
       "base-attack": "92",
       "base-defense": "78",
@@ -5125,7 +5125,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.022",
+    "spawnChance": "0.022",
     "stats": {
       "base-attack": "150",
       "base-defense": "136",
@@ -5218,7 +5218,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "2.54",
+    "spawnChance": "2.54",
     "stats": {
       "base-attack": "122",
       "base-defense": "95",
@@ -5308,7 +5308,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.087",
+    "spawnChance": "0.087",
     "stats": {
       "base-attack": "191",
       "base-defense": "162",
@@ -5398,7 +5398,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.92",
+    "spawnChance": "0.92",
     "stats": {
       "base-attack": "148",
       "base-defense": "82",
@@ -5488,7 +5488,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.031",
+    "spawnChance": "0.031",
     "stats": {
       "base-attack": "207",
       "base-defense": "138",
@@ -5592,7 +5592,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": "0.92",
+    "spawnChance": "0.92",
     "stats": {
       "base-attack": "136",
       "base-defense": "93",
@@ -5684,7 +5684,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": "0.017",
+    "spawnChance": "0.017",
     "stats": {
       "base-attack": "227",
       "base-defense": "166",
@@ -5797,7 +5797,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "2.19",
+    "spawnChance": "2.19",
     "stats": {
       "base-attack": "101",
       "base-defense": "82",
@@ -5903,7 +5903,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": "0.13",
+    "spawnChance": "0.13",
     "stats": {
       "base-attack": "130",
       "base-defense": "123",
@@ -6017,7 +6017,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": "0.011",
+    "spawnChance": "0.011",
     "stats": {
       "base-attack": "182",
       "base-defense": "184",
@@ -6130,7 +6130,7 @@ export default {
       "base-flee-rate": "0.99",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.42",
+    "spawnChance": "0.42",
     "stats": {
       "base-attack": "195",
       "base-defense": "82",
@@ -6224,7 +6224,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": "0.027",
+    "spawnChance": "0.027",
     "stats": {
       "base-attack": "232",
       "base-defense": "117",
@@ -6318,7 +6318,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": "0.0073",
+    "spawnChance": "0.0073",
     "stats": {
       "base-attack": "271",
       "base-defense": "167",
@@ -6426,7 +6426,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.49",
+    "spawnChance": "0.49",
     "stats": {
       "base-attack": "137",
       "base-defense": "82",
@@ -6528,7 +6528,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": "0.034",
+    "spawnChance": "0.034",
     "stats": {
       "base-attack": "177",
       "base-defense": "125",
@@ -6630,7 +6630,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": "0.0068",
+    "spawnChance": "0.0068",
     "stats": {
       "base-attack": "234",
       "base-defense": "159",
@@ -6754,7 +6754,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "1.15",
+    "spawnChance": "1.15",
     "stats": {
       "base-attack": "139",
       "base-defense": "61",
@@ -6853,7 +6853,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": "0.072",
+    "spawnChance": "0.072",
     "stats": {
       "base-attack": "172",
       "base-defense": "92",
@@ -6959,7 +6959,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": "0.0059",
+    "spawnChance": "0.0059",
     "stats": {
       "base-attack": "207",
       "base-defense": "135",
@@ -7058,7 +7058,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.81",
+    "spawnChance": "0.81",
     "stats": {
       "base-attack": "97",
       "base-defense": "149",
@@ -7151,7 +7151,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.082",
+    "spawnChance": "0.082",
     "stats": {
       "base-attack": "166",
       "base-defense": "209",
@@ -7244,7 +7244,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "1.19",
+    "spawnChance": "1.19",
     "stats": {
       "base-attack": "132",
       "base-defense": "132",
@@ -7345,7 +7345,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": "0.071",
+    "spawnChance": "0.071",
     "stats": {
       "base-attack": "164",
       "base-defense": "164",
@@ -7460,7 +7460,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": "0.0047",
+    "spawnChance": "0.0047",
     "stats": {
       "base-attack": "211",
       "base-defense": "198",
@@ -7574,7 +7574,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": "0.51",
+    "spawnChance": "0.51",
     "stats": {
       "base-attack": "170",
       "base-defense": "127",
@@ -7673,7 +7673,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": "0.011",
+    "spawnChance": "0.011",
     "stats": {
       "base-attack": "207",
       "base-defense": "162",
@@ -7773,7 +7773,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "1.05",
+    "spawnChance": "1.05",
     "stats": {
       "base-attack": "109",
       "base-defense": "98",
@@ -7879,7 +7879,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.036",
+    "spawnChance": "0.036",
     "stats": {
       "base-attack": "177",
       "base-defense": "180",
@@ -7973,7 +7973,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.71",
+    "spawnChance": "0.71",
     "stats": {
       "base-attack": "165",
       "base-defense": "121",
@@ -8065,7 +8065,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.023",
+    "spawnChance": "0.023",
     "stats": {
       "base-attack": "223",
       "base-defense": "169",
@@ -8173,7 +8173,7 @@ export default {
       "base-capture-rate": "0.3",
       "common-capture-area": "early reports that this pokémon is likely to be found in: asia or hatched from an egg in that geographic area."
     },
-    "spawn-chance": "0.0212",
+    "spawnChance": "0.0212",
     "stats": {
       "base-attack": "124",
       "base-defense": "115",
@@ -8266,7 +8266,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.52",
+    "spawnChance": "0.52",
     "stats": {
       "base-attack": "158",
       "base-defense": "83",
@@ -8364,7 +8364,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.22",
+    "spawnChance": "0.22",
     "stats": {
       "base-attack": "218",
       "base-defense": "140",
@@ -8461,7 +8461,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.28",
+    "spawnChance": "0.28",
     "stats": {
       "base-attack": "85",
       "base-defense": "121",
@@ -8566,7 +8566,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.013",
+    "spawnChance": "0.013",
     "stats": {
       "base-attack": "139",
       "base-defense": "177",
@@ -8677,7 +8677,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.052",
+    "spawnChance": "0.052",
     "stats": {
       "base-attack": "135",
       "base-defense": "90",
@@ -8775,7 +8775,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.0031",
+    "spawnChance": "0.0031",
     "stats": {
       "base-attack": "190",
       "base-defense": "172",
@@ -8880,7 +8880,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.52",
+    "spawnChance": "0.52",
     "stats": {
       "base-attack": "116",
       "base-defense": "134",
@@ -8971,7 +8971,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.015",
+    "spawnChance": "0.015",
     "stats": {
       "base-attack": "186",
       "base-defense": "256",
@@ -9076,7 +9076,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": "0.79",
+    "spawnChance": "0.79",
     "stats": {
       "base-attack": "186",
       "base-defense": "67",
@@ -9189,7 +9189,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.052",
+    "spawnChance": "0.052",
     "stats": {
       "base-attack": "223",
       "base-defense": "107",
@@ -9302,7 +9302,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": "0.0067",
+    "spawnChance": "0.0067",
     "stats": {
       "base-attack": "261",
       "base-defense": "149",
@@ -9422,7 +9422,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.1",
+    "spawnChance": "0.1",
     "stats": {
       "base-attack": "85",
       "base-defense": "232",
@@ -9535,7 +9535,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "3.21",
+    "spawnChance": "3.21",
     "stats": {
       "base-attack": "89",
       "base-defense": "136",
@@ -9624,7 +9624,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.1",
+    "spawnChance": "0.1",
     "stats": {
       "base-attack": "144",
       "base-defense": "193",
@@ -9727,7 +9727,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "2.12",
+    "spawnChance": "2.12",
     "stats": {
       "base-attack": "181",
       "base-defense": "124",
@@ -9817,7 +9817,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.062",
+    "spawnChance": "0.062",
     "stats": {
       "base-attack": "240",
       "base-defense": "181",
@@ -9914,7 +9914,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.65",
+    "spawnChance": "0.65",
     "stats": {
       "base-attack": "109",
       "base-defense": "111",
@@ -10009,7 +10009,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.02",
+    "spawnChance": "0.02",
     "stats": {
       "base-attack": "173",
       "base-defense": "173",
@@ -10105,7 +10105,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.78",
+    "spawnChance": "0.78",
     "stats": {
       "base-attack": "107",
       "base-defense": "125",
@@ -10202,7 +10202,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.014",
+    "spawnChance": "0.014",
     "stats": {
       "base-attack": "233",
       "base-defense": "149",
@@ -10312,7 +10312,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": "0.61",
+    "spawnChance": "0.61",
     "stats": {
       "base-attack": "90",
       "base-defense": "144",
@@ -10402,7 +10402,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": "0.02",
+    "spawnChance": "0.02",
     "stats": {
       "base-attack": "144",
       "base-defense": "186",
@@ -10492,7 +10492,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.02",
+    "spawnChance": "0.02",
     "stats": {
       "base-attack": "224",
       "base-defense": "181",
@@ -10596,7 +10596,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.022",
+    "spawnChance": "0.022",
     "stats": {
       "base-attack": "193",
       "base-defense": "197",
@@ -10707,7 +10707,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.011",
+    "spawnChance": "0.011",
     "stats": {
       "base-attack": "108",
       "base-defense": "137",
@@ -10788,7 +10788,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.2",
+    "spawnChance": "0.2",
     "stats": {
       "base-attack": "119",
       "base-defense": "141",
@@ -10886,7 +10886,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.016",
+    "spawnChance": "0.016",
     "stats": {
       "base-attack": "174",
       "base-defense": "197",
@@ -10985,7 +10985,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "0.63",
+    "spawnChance": "0.63",
     "stats": {
       "base-attack": "140",
       "base-defense": "127",
@@ -11090,7 +11090,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": "0.022",
+    "spawnChance": "0.022",
     "stats": {
       "base-attack": "222",
       "base-defense": "171",
@@ -11194,7 +11194,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.013",
+    "spawnChance": "0.013",
     "stats": {
       "base-attack": "60",
       "base-defense": "128",
@@ -11291,7 +11291,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": "0.228",
+    "spawnChance": "0.228",
     "stats": {
       "base-attack": "183",
       "base-defense": "169",
@@ -11387,7 +11387,7 @@ export default {
       "base-capture-rate": "0.2",
       "common-capture-area": "early reports that this pokémon is likely to be found in: australia, new zealand or hatched from an egg in that geographic area."
     },
-    "spawn-chance": "0.0086",
+    "spawnChance": "0.0086",
     "stats": {
       "base-attack": "181",
       "base-defense": "165",
@@ -11482,7 +11482,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "1.13",
+    "spawnChance": "1.13",
     "stats": {
       "base-attack": "129",
       "base-defense": "103",
@@ -11581,7 +11581,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.034",
+    "spawnChance": "0.034",
     "stats": {
       "base-attack": "187",
       "base-defense": "156",
@@ -11687,7 +11687,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "2.18",
+    "spawnChance": "2.18",
     "stats": {
       "base-attack": "123",
       "base-defense": "110",
@@ -11777,7 +11777,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.08",
+    "spawnChance": "0.08",
     "stats": {
       "base-attack": "175",
       "base-defense": "147",
@@ -11881,7 +11881,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": "1.95",
+    "spawnChance": "1.95",
     "stats": {
       "base-attack": "137",
       "base-defense": "112",
@@ -11979,7 +11979,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.034",
+    "spawnChance": "0.034",
     "stats": {
       "base-attack": "210",
       "base-defense": "184",
@@ -12095,7 +12095,7 @@ export default {
       "base-capture-rate": "0.3",
       "common-capture-area": "early reports that this pokémon is likely to be found in: western europe or hatched from an egg in that geographic area."
     },
-    "spawn-chance": "0.0031",
+    "spawnChance": "0.0031",
     "stats": {
       "base-attack": "192",
       "base-defense": "205",
@@ -12186,7 +12186,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": "0.14",
+    "spawnChance": "0.14",
     "stats": {
       "base-attack": "218",
       "base-defense": "170",
@@ -12298,7 +12298,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": "0.35",
+    "spawnChance": "0.35",
     "stats": {
       "base-attack": "223",
       "base-defense": "151",
@@ -12404,7 +12404,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.074",
+    "spawnChance": "0.074",
     "stats": {
       "base-attack": "198",
       "base-defense": "158",
@@ -12501,7 +12501,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.1",
+    "spawnChance": "0.1",
     "stats": {
       "base-attack": "206",
       "base-defense": "154",
@@ -12602,7 +12602,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": "0.99",
+    "spawnChance": "0.99",
     "stats": {
       "base-attack": "238",
       "base-defense": "182",
@@ -12702,7 +12702,7 @@ export default {
       "base-capture-rate": "0.3",
       "common-capture-area": "early reports that this pokémon is likely to be found in: north america or hatched from an egg in that geographic area."
     },
-    "spawn-chance": "0.12",
+    "spawnChance": "0.12",
     "stats": {
       "base-attack": "198",
       "base-defense": "183",
@@ -12783,7 +12783,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.7"
     },
-    "spawn-chance": "4.78",
+    "spawnChance": "4.78",
     "stats": {
       "base-attack": "29",
       "base-defense": "85",
@@ -12851,7 +12851,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": "0.0032",
+    "spawnChance": "0.0032",
     "stats": {
       "base-attack": "237",
       "base-defense": "186",
@@ -12964,7 +12964,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": "0.006",
+    "spawnChance": "0.006",
     "stats": {
       "base-attack": "165",
       "base-defense": "174",
@@ -13063,7 +13063,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "91",
       "base-defense": "91",
@@ -13121,7 +13121,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": "2.75",
+    "spawnChance": "2.75",
     "stats": {
       "base-attack": "104",
       "base-defense": "114",
@@ -13239,7 +13239,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": "0.014",
+    "spawnChance": "0.014",
     "stats": {
       "base-attack": "205",
       "base-defense": "161",
@@ -13321,7 +13321,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": "0.012",
+    "spawnChance": "0.012",
     "stats": {
       "base-attack": "232",
       "base-defense": "182",
@@ -13409,7 +13409,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": "0.017",
+    "spawnChance": "0.017",
     "stats": {
       "base-attack": "246",
       "base-defense": "179",
@@ -13508,7 +13508,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": "0.012",
+    "spawnChance": "0.012",
     "stats": {
       "base-attack": "153",
       "base-defense": "136",
@@ -13650,7 +13650,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": "0.14",
+    "spawnChance": "0.14",
     "stats": {
       "base-attack": "155",
       "base-defense": "153",
@@ -13758,7 +13758,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": "0.0061",
+    "spawnChance": "0.0061",
     "stats": {
       "base-attack": "207",
       "base-defense": "201",
@@ -13866,7 +13866,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": "0.1",
+    "spawnChance": "0.1",
     "stats": {
       "base-attack": "148",
       "base-defense": "140",
@@ -13960,7 +13960,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": "0.0032",
+    "spawnChance": "0.0032",
     "stats": {
       "base-attack": "220",
       "base-defense": "186",
@@ -14061,7 +14061,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": "0.018",
+    "spawnChance": "0.018",
     "stats": {
       "base-attack": "221",
       "base-defense": "159",
@@ -14150,7 +14150,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": "0.016",
+    "spawnChance": "0.016",
     "stats": {
       "base-attack": "190",
       "base-defense": "169",
@@ -14244,7 +14244,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.03"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "192",
       "base-defense": "236",
@@ -14323,7 +14323,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.03"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "253",
       "base-defense": "185",
@@ -14410,7 +14410,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.03"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "251",
       "base-defense": "181",
@@ -14489,7 +14489,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": "0.3",
+    "spawnChance": "0.3",
     "stats": {
       "base-attack": "119",
       "base-defense": "91",
@@ -14585,7 +14585,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": "0.02",
+    "spawnChance": "0.02",
     "stats": {
       "base-attack": "163",
       "base-defense": "135",
@@ -14682,7 +14682,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": "0.0011",
+    "spawnChance": "0.0011",
     "stats": {
       "base-attack": "263",
       "base-defense": "198",
@@ -14801,7 +14801,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.06"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "300",
       "base-defense": "182",
@@ -14892,7 +14892,7 @@ export default {
       "base-flee-rate": "0",
       "base-capture-rate": "100"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "210",
       "base-defense": "210",
@@ -15003,7 +15003,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "92",
       "base-defense": "122",
@@ -15100,7 +15100,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "122",
       "base-defense": "155",
@@ -15197,7 +15197,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "168",
       "base-defense": "202",
@@ -15294,7 +15294,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "116",
       "base-defense": "93",
@@ -15391,7 +15391,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "158",
       "base-defense": "126",
@@ -15488,7 +15488,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "223",
       "base-defense": "173",
@@ -15585,7 +15585,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "117",
       "base-defense": "109",
@@ -15680,7 +15680,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "150",
       "base-defense": "142",
@@ -15775,7 +15775,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "205",
       "base-defense": "188",
@@ -15870,7 +15870,7 @@ export default {
       "base-flee-rate": "0.2",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "79",
       "base-defense": "73",
@@ -15956,7 +15956,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "148",
       "base-defense": "125",
@@ -16043,7 +16043,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "67",
       "base-defense": "88",
@@ -16120,7 +16120,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "145",
       "base-defense": "156",
@@ -16212,7 +16212,7 @@ export default {
       "base-flee-rate": "0.2",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "72",
       "base-defense": "118",
@@ -16305,7 +16305,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "107",
       "base-defense": "179",
@@ -16398,7 +16398,7 @@ export default {
       "base-flee-rate": "0.2",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "105",
       "base-defense": "73",
@@ -16492,7 +16492,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "161",
       "base-defense": "124",
@@ -16586,7 +16586,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "194",
       "base-defense": "178",
@@ -16685,7 +16685,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "106",
       "base-defense": "97",
@@ -16777,7 +16777,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "146",
       "base-defense": "137",
@@ -16868,7 +16868,7 @@ export default {
       "base-flee-rate": "not in capture",
       "base-capture-rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "77",
       "base-defense": "53",
@@ -16961,7 +16961,7 @@ export default {
       "base-flee-rate": "not in capture",
       "base-capture-rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "75",
       "base-defense": "79",
@@ -17071,7 +17071,7 @@ export default {
       "base-flee-rate": "not in capture",
       "base-capture-rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "69",
       "base-defense": "32",
@@ -17173,7 +17173,7 @@ export default {
       "base-flee-rate": "not in capture",
       "base-capture-rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "67",
       "base-defense": "116",
@@ -17280,7 +17280,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "139",
       "base-defense": "181",
@@ -17383,7 +17383,7 @@ export default {
       "base-flee-rate": "0.15",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "134",
       "base-defense": "89",
@@ -17476,7 +17476,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "192",
       "base-defense": "146",
@@ -17568,7 +17568,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "114",
       "base-defense": "79",
@@ -17661,7 +17661,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "145",
       "base-defense": "109",
@@ -17754,7 +17754,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "211",
       "base-defense": "169",
@@ -17847,7 +17847,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "169",
       "base-defense": "186",
@@ -17949,7 +17949,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "37",
       "base-defense": "93",
@@ -18047,7 +18047,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "112",
       "base-defense": "152",
@@ -18144,7 +18144,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "167",
       "base-defense": "176",
@@ -18236,7 +18236,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "174",
       "base-defense": "179",
@@ -18336,7 +18336,7 @@ export default {
       "base-flee-rate": "0.12",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "67",
       "base-defense": "94",
@@ -18434,7 +18434,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "91",
       "base-defense": "120",
@@ -18532,7 +18532,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "118",
       "base-defense": "183",
@@ -18629,7 +18629,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "136",
       "base-defense": "112",
@@ -18710,7 +18710,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "55",
       "base-defense": "55",
@@ -18806,7 +18806,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "185",
       "base-defense": "135",
@@ -18903,7 +18903,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "154",
       "base-defense": "94",
@@ -18991,7 +18991,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "75",
       "base-defense": "66",
@@ -19081,7 +19081,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "152",
       "base-defense": "143",
@@ -19170,7 +19170,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "261",
       "base-defense": "175",
@@ -19259,7 +19259,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "126",
       "base-defense": "240",
@@ -19343,7 +19343,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "175",
       "base-defense": "87",
@@ -19441,7 +19441,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "177",
       "base-defense": "180",
@@ -19538,7 +19538,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "167",
       "base-defense": "154",
@@ -19632,7 +19632,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "136",
       "base-defense": "91",
@@ -19693,7 +19693,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "60",
       "base-defense": "106",
@@ -19768,7 +19768,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "182",
       "base-defense": "133",
@@ -19850,7 +19850,7 @@ export default {
       "base-flee-rate": "0.12",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "108",
       "base-defense": "122",
@@ -19941,7 +19941,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "161",
       "base-defense": "205",
@@ -20031,7 +20031,7 @@ export default {
       "base-flee-rate": "0.2",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "131",
       "base-defense": "128",
@@ -20113,7 +20113,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "143",
       "base-defense": "184",
@@ -20208,7 +20208,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "148",
       "base-defense": "272",
@@ -20305,7 +20305,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "137",
       "base-defense": "85",
@@ -20395,7 +20395,7 @@ export default {
       "base-flee-rate": "0.08",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "212",
       "base-defense": "131",
@@ -20486,7 +20486,7 @@ export default {
       "base-flee-rate": "0.08",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "184",
       "base-defense": "138",
@@ -20574,7 +20574,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "236",
       "base-defense": "181",
@@ -20669,7 +20669,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "17",
       "base-defense": "396",
@@ -20754,7 +20754,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "234",
       "base-defense": "179",
@@ -20843,7 +20843,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "189",
       "base-defense": "146",
@@ -20939,7 +20939,7 @@ export default {
       "base-flee-rate": "0.2",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "142",
       "base-defense": "93",
@@ -21025,7 +21025,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "236",
       "base-defense": "144",
@@ -21111,7 +21111,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "118",
       "base-defense": "71",
@@ -21204,7 +21204,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "139",
       "base-defense": "191",
@@ -21298,7 +21298,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "90",
       "base-defense": "69",
@@ -21389,7 +21389,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "181",
       "base-defense": "138",
@@ -21480,7 +21480,7 @@ export default {
       "base-flee-rate": "0.12",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "118",
       "base-defense": "156",
@@ -21568,7 +21568,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "127",
       "base-defense": "69",
@@ -21658,7 +21658,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "197",
       "base-defense": "141",
@@ -21749,7 +21749,7 @@ export default {
       "base-flee-rate": "0.2",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "128",
       "base-defense": "90",
@@ -21836,7 +21836,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "148",
       "base-defense": "226",
@@ -21928,7 +21928,7 @@ export default {
       "base-flee-rate": "0.09",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "148",
       "base-defense": "226",
@@ -22015,7 +22015,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "152",
       "base-defense": "83",
@@ -22109,7 +22109,7 @@ export default {
       "base-flee-rate": "0.06",
       "base-capture-rate": "0.15"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "224",
       "base-defense": "144",
@@ -22203,7 +22203,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "194",
       "base-defense": "194",
@@ -22301,7 +22301,7 @@ export default {
       "base-flee-rate": "0.2",
       "base-capture-rate": "0.5"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "107",
       "base-defense": "98",
@@ -22391,7 +22391,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.125"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "214",
       "base-defense": "185",
@@ -22481,7 +22481,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "198",
       "base-defense": "180",
@@ -22580,7 +22580,7 @@ export default {
       "base-flee-rate": "0.08",
       "base-capture-rate": "0.3"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "192",
       "base-defense": "131",
@@ -22661,7 +22661,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.25"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "40",
       "base-defense": "83",
@@ -22719,7 +22719,7 @@ export default {
       "base-flee-rate": "not in capture",
       "base-capture-rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "64",
       "base-defense": "64",
@@ -22821,7 +22821,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "173",
       "base-defense": "207",
@@ -22912,7 +22912,7 @@ export default {
       "base-flee-rate": "not in capture",
       "base-capture-rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "153",
       "base-defense": "91",
@@ -23009,7 +23009,7 @@ export default {
       "base-flee-rate": "not in capture",
       "base-capture-rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "135",
       "base-defense": "101",
@@ -23113,7 +23113,7 @@ export default {
       "base-flee-rate": "not in capture",
       "base-capture-rate": "not in capture"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "151",
       "base-defense": "99",
@@ -23221,7 +23221,7 @@ export default {
       "base-flee-rate": "0.08",
       "base-capture-rate": "0.2"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "157",
       "base-defense": "193",
@@ -23302,7 +23302,7 @@ export default {
       "base-flee-rate": "0.05",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "129",
       "base-defense": "169",
@@ -23393,7 +23393,7 @@ export default {
       "base-flee-rate": "0.04",
       "base-capture-rate": "0.02"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "241",
       "base-defense": "195",
@@ -23476,7 +23476,7 @@ export default {
       "base-flee-rate": "0.04",
       "base-capture-rate": "0.02"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "235",
       "base-defense": "171",
@@ -23563,7 +23563,7 @@ export default {
       "base-flee-rate": "0.04",
       "base-capture-rate": "0.02"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "180",
       "base-defense": "235",
@@ -23649,7 +23649,7 @@ export default {
       "base-flee-rate": "0.1",
       "base-capture-rate": "0.4"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "115",
       "base-defense": "93",
@@ -23751,7 +23751,7 @@ export default {
       "base-flee-rate": "0.07",
       "base-capture-rate": "0.1"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "155",
       "base-defense": "133",
@@ -23853,7 +23853,7 @@ export default {
       "base-flee-rate": "0.04",
       "base-capture-rate": "0.05"
     },
-    "spawn-chance": null,
+    "spawnChance": null,
     "stats": {
       "base-attack": "251",
       "base-defense": "207",
@@ -23957,7 +23957,7 @@ export default {
       "base-flee-rate": "0.04",
       "base-capture-rate": "0.02"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "193",
       "base-defense": "310",
@@ -24045,7 +24045,7 @@ export default {
       "base-flee-rate": "0.04",
       "base-capture-rate": "0.02"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "239",
       "base-defense": "244",
@@ -24135,7 +24135,7 @@ export default {
       "base-flee-rate": "0",
       "base-capture-rate": "100"
     },
-    "spawn-chance": "0",
+    "spawnChance": "0",
     "stats": {
       "base-attack": "210",
       "base-defense": "210",

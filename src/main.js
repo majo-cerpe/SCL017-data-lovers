@@ -1,7 +1,6 @@
 import { example } from './data.js';
-//// import data from './data/lol/lol.js';
 import data from './data/pokemon/pokemon.js';
-//// import data from './data/rickandmorty/rickandmorty.js';
+
 
 console.log(example);
 console.log(data);
@@ -33,7 +32,7 @@ function addElement() {
 let htmlCode = '';
 
 data.pokemon.forEach(element => {
-    htmlCode += `<div id="pokemonCard" class="pokemonCard">
+    htmlCode += `<div id=${element.num} class="pokemonCard">
                     <div class="num">${"#" + element.num}</div>
                     <img class= "img" src=${element.img}>
                     <div class="name">${element.name}</div>
@@ -48,6 +47,17 @@ data.pokemon.forEach(element => {
 
     containerRoot.innerHTML = htmlCode;
 });
+
+for (let i = 0; i < data.pokemon.length; i++ ){
+document.querySelectorAll(".pokemonCard")[i].addEventListener("click", myFunction);
+}
+
+function myFunction(){
+    let clickedPokemonId = event.currentTarget.getAttribute("id");
+    sessionStorage.setItem("clickedPokemonId", clickedPokemonId);
+    window.location.href = "pokemonProfile.html";
+}
+
 
 
 
