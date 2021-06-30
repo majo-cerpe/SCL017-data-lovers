@@ -1,3 +1,4 @@
+/* eslint-disable no-prototype-builtins */
 import { example } from './data.js';
 import data from './data/pokemon/pokemon.js';
 
@@ -77,9 +78,9 @@ htmlCode += `<h1>${data.pokemon[selectedPokemonIndex].name}</h1>
                 </section>
                 <section class = typeContainer>
                     <h2>${"Tipo"}</h2>
-                    <div class=type>`
+                    <div class=types>`
 data.pokemon[selectedPokemonIndex].type.forEach(type => {
-            htmlCode += `<div>${type}</div>`}); 
+            htmlCode += `<div class ="${type}">${type}</div>`}); 
         htmlCode += `</div>
                 </section>
             </section>    
@@ -102,14 +103,14 @@ data.pokemon[selectedPokemonIndex].weaknesses.forEach(weaknesses =>{
                     </section>
                 </section>
                 <section class = statsEvolution>
-                    <section>
+                    <section class = stats>
                         <h2>${"Estadísticas"}</h2>
                         <ul>
                             <li>${"Tasa de fuga base: " + data.pokemon[selectedPokemonIndex].encounter['base-flee-rate']}</li>
                             <li>${"Tasa de captura base: " + data.pokemon[selectedPokemonIndex].encounter['base-capture-rate']}</li>
                     </ul>
                 </section>
-                <section>
+                <section class = evolution>
                     <h2>${"Evoluciones y costo en caramelos"}</h2>`         
     if (prevEvolution == false && data.pokemon[selectedPokemonIndex].evolution.nextEvolution.length <=1 && data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0].hasOwnProperty('nextEvolution') == true){
         //caso 1: 1° pokemon de una familia con una evolución con una evolución (evolución lineal e.g. Bulbasaur) 
@@ -117,8 +118,8 @@ data.pokemon[selectedPokemonIndex].weaknesses.forEach(weaknesses =>{
         nextEvolutionName = data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0].name
         nextEvolutionCandyCost = data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0].candyCost
         nextNextEvolutionCandyCost = data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0].nextEvolution[0].candyCost
-
-        htmlCode += `<div style="display: flex">
+    
+        htmlCode += `<div class=evolutionCandy>
                         <h3>${selectedPokemonName}</h3>
                         <figure>
                             <img src="img/arrowpoint.png" style="width: 100px; border: none">                        
