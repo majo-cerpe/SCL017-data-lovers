@@ -68,6 +68,12 @@ nav > * {
   font-size: 36px;
   line-height: 80px;
 }
+.prevPokemonButton:hover {
+  border-style: inset;
+  background-color: #d94436de;
+  cursor: pointer;
+}
+
 .nextPokemonButton {
   width: 420px;
   height: 80px;
@@ -81,6 +87,13 @@ nav > * {
   font-size: 36px;
   line-height: 80px;
 }
+
+.nextPokemonButton:hover {
+  border-style: inset;
+  background-color: #f2b707de;
+  cursor: pointer;
+}
+
 h1 {
   width: 1120px;
   height: 120px;
@@ -150,7 +163,7 @@ h2 {
   width: 280px;
   margin-right: 74px;
 }
-.type {
+.types {
   display: flex;
   justify-content: space-around;
 }
@@ -172,8 +185,18 @@ h2 {
   background-color: transparent;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   margin-top: 0px;
-  width: 824px;
   margin-left: 0px;
+  width: 823px;
+}
+
+.evolutionCandy {
+  display: flex;
+  font-size: 20.5px;
+}
+
+figcaption {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
 }
