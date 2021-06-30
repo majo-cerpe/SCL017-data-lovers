@@ -121,12 +121,12 @@ data.pokemon[selectedPokemonIndex].weaknesses.forEach(weaknesses =>{
         htmlCode += `<div style="display: flex">
                         <h3>${selectedPokemonName}</h3>
                         <figure>
-
+                            <img src="img/arrowpoint.png" style="width: 100px; border: none">                        
                             <figcaption>${"Costo en caramelos: " + nextEvolutionCandyCost}<figcaption>
                         </figure>
                         <h3>${nextEvolutionName}</h3>
                         <figure>
-
+                            <img src="img/arrowpoint.png" style="width: 100px; border: none">
                             <figcaption>${"Costo en caramelos: " + nextNextEvolutionCandyCost}<figcaption>
                         </figure>
                         <div>`
@@ -147,12 +147,12 @@ data.pokemon[selectedPokemonIndex].weaknesses.forEach(weaknesses =>{
          htmlCode += `<div style="display: flex">
                         <h3>${prevEvolutionName}</h3>
                         <figure>
-
+                            <img src="img/arrowpoint.png" style="width: 100px; border: none"> 
                             <figcaption>${"Costo en caramelos: " + prevEvolutionCandyCost}<figcaption>
                         </figure>
                         <h3>${selectedPokemonName}</h3>
                         <figure>
-
+                            <img src="img/arrowpoint.png" style="width: 100px; border: none"> 
                             <figcaption>${"Costo en caramelos: " + nextEvolutionCandyCost}<figcaption>
                         </figure>
                         <div>`
@@ -173,12 +173,12 @@ data.pokemon[selectedPokemonIndex].weaknesses.forEach(weaknesses =>{
         htmlCode += `<div style="display: flex">
                         <h3>${prevPrevEvolutionName}</h3>
                         <figure>
-
+                            <img src="img/arrowpoint.png" style="width: 100px; border: none"> 
                             <figcaption>${"Costo en caramelos: " + prevEvolutionCandyCost}<figcaption>
                         </figure>
                         <h3>${prevEvolutionName}</h3>
                         <figure>
-
+                            <img src="img/arrowpoint.png" style="width: 100px; border: none"> 
                             <figcaption>${"Costo en caramelos: " + prevPrevEvolutionCandyCost}<figcaption>
                         </figure>
                         <h3>${selectedPokemonName}</h3>
@@ -194,7 +194,7 @@ data.pokemon[selectedPokemonIndex].weaknesses.forEach(weaknesses =>{
         htmlCode += `<div style="display: flex">
                         <h3>${selectedPokemonName}</h3>
                         <figure>
-
+                            <img src="img/arrowpoint.png" style="width: 100px; border: none"> 
                             <figcaption>${"Costo en caramelos: " + nextEvolutionCandyCost}<figcaption>
                         </figure>
                         <div>`
@@ -213,7 +213,7 @@ data.pokemon[selectedPokemonIndex].weaknesses.forEach(weaknesses =>{
         htmlCode += `<div style="display: flex">
                         <h3>${selectedPokemonName}</h3>
                         <figure>
-                            
+                            <img src="img/arrowpoint.png" style="width: 100px; border: none"> 
                             <figcaption>${"Costo en caramelos: " + nextEvolutionCandyCost}<figcaption>
                         </figure>
                         <h3>${nextEvolutionName}</h3>
@@ -229,7 +229,7 @@ data.pokemon[selectedPokemonIndex].weaknesses.forEach(weaknesses =>{
         htmlCode += `<div style="display: flex">
                         <h3>${prevEvolutionName}</h3>
                         <figure>
-
+                            <img src="img/arrowpoint.png" style="width: 100px; border: none">
                             <figcaption>${"Costo en caramelos: " + prevEvolutionCandyCost}<figcaption>
                         </figure>
                         <h3>${selectedPokemonName}</h3>
