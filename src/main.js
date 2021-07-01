@@ -1,15 +1,14 @@
-import { buttonFunction } from './data.js';
-import { filter } from './data.js';
+import { operation } from './data.js';
 import data from './data/pokemon/pokemon.js';
 
 
-console.log("Función search " + buttonFunction.search);
-console.log("Función pokemonProfileDisplay " + buttonFunction.pokemonProfileDisplay);
-console.log("Función goToPreviousPokemon " + buttonFunction.goToPreviousPokemon);
-console.log("Función goToNextPokemon " + buttonFunction.goToNextPokemon);
-console.log("Función generationFilter " + filter.generationFilter)
-console.log("Función TypeFilter " + filter.typeFilter)
-console.log("Función weaknessesFilter " + filter.weaknessesFilter)
+console.log("Función search " + operation.search);
+console.log("Función pokemonProfileDisplay " + operation.clickedPokemonProfileDisplay);
+console.log("Función goToPreviousPokemon " + operation.goToPreviousPokemon);
+console.log("Función goToNextPokemon " + operation.goToNextPokemon);
+console.log("Función generationFilter " + operation.generationFilter)
+console.log("Función TypeFilter " + operation.typeFilter)
+console.log("Función weaknessesFilter " + operation.weaknessesFilter)
 console.log(data);
 
 const containerRoot = document.getElementById('root');
@@ -35,12 +34,12 @@ data.pokemon.forEach(element => {
 });
 
 
-document.getElementById('searchButton').addEventListener("click", buttonFunction.search);
+document.getElementById('searchButton').addEventListener("click", operation.search);
 
 
 
 for (let i = 0; i < data.pokemon.length; i++ ){
-document.querySelectorAll(".pokemonCard")[i].addEventListener("click", buttonFunction.pokemonProfileDisplay);
+document.querySelectorAll(".pokemonCard")[i].addEventListener("click", operation.clickedPokemonProfileDisplay);
 }
 
 

@@ -1,12 +1,14 @@
-import { buttonFunction } from './data.js';
-import { filter } from './data.js';
+import { operation } from './data.js';
 import data from './data/pokemon/pokemon.js';
 
 
-console.log(buttonFunction);
-console.log(filter.generationFilter)
-console.log(filter.typeFilter)
-console.log(filter.weaknessesFilter)
+console.log("Función search " + operation.search);
+console.log("Función pokemonProfileDisplay " + operation.clickedPokemonProfileDisplay);
+console.log("Función goToPreviousPokemon " + operation.goToPreviousPokemon);
+console.log("Función goToNextPokemon " + operation.goToNextPokemon);
+console.log("Función generationFilter " + operation.generationFilter)
+console.log("Función TypeFilter " + operation.typeFilter)
+console.log("Función weaknessesFilter " + operation.weaknessesFilter)
 console.log(data);
 
 const containerRoot = document.getElementById('root');

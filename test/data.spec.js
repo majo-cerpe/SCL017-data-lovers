@@ -1,23 +1,48 @@
-import { example, anotherExample } from '../src/data.js';
+import {operation} from '../src/data.js';
 
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
+describe('operation', () => {
+  it('debería ser un objeto', () => {
+    expect(typeof operation).toBe('object');
   });
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+  describe('operation.search', () => {
+    it('debería ser una función', () => {
+      expect(typeof operation.search).toBe('function');
+    });
+
+ /* it.skip('debería retornar true para "4083952015263"', () => {
+      // escribe aquí tu test
+    });
+
+    it.skip('debería retornar true para "79927398713"', () => {
+      // escribe aquí tu test
+    });
+
+    it.skip('debería retornar false para "1234567890"', () => {
+      // escribe aquí tu test
+    }); */
+  });
+
+
+  describe('operation.clickedPokemonProfileDisplay', () => {
+    it('debería ser una función', () => {
+      expect(typeof operation.clickedPokemonProfileDisplay).toBe('function');
+    });
+
+  /*it.skip('Debería retornar "############5616" para "4556364607935616"', () => {
+      // escribe aquí tu test
+    });
+
+    it.skip('Debería retornar "1" para "1"', () => {
+      // escribe aquí tu test
+    });
+
+    it.skip('Debería retornar "######orld" para "helloworld"', () => {
+      // escribe aquí tu test
+    }); */
   });
 });
 
 
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
-  });
-});
