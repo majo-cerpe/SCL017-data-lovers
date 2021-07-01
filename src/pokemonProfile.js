@@ -12,8 +12,9 @@ console.log(data);
 const containerRoot = document.getElementById('root');
 let htmlCode = ''
 
-    ,clickedPokemonId = sessionStorage.getItem("clickedPokemonId")
-    ,selectedPokemonIndex = clickedPokemonId -1
+    
+    ,searchOrClickedPokemonId = sessionStorage.getItem("searchOrClickedPokemonId")
+    ,selectedPokemonIndex = searchOrClickedPokemonId -1
     ,nextPokemonIndex = 0
     ,previousPokemonIndex = 0
     ,selectedPokemonName = data.pokemon[selectedPokemonIndex].name
@@ -50,7 +51,7 @@ let htmlCode = ''
 
      
 
-switch(clickedPokemonId){
+switch(searchOrClickedPokemonId){
     case "001":
         nextPokemonIndex = selectedPokemonIndex +1;
     htmlCode = 

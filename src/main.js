@@ -3,13 +3,13 @@ import { filter } from './data.js';
 import data from './data/pokemon/pokemon.js';
 
 
-console.log(buttonFunction.search);
-console.log(buttonFunction.pokemonProfileDisplay);
-/* console.log(buttonFunction.goToPreviousPokemon);
-console.log(buttonFunction.goToNextPokemon); */
-console.log(filter.generationFilter)
-console.log(filter.typeFilter)
-console.log(filter.weaknessesFilter)
+console.log("Función search " + buttonFunction.search);
+console.log("Función pokemonProfileDisplay " + buttonFunction.pokemonProfileDisplay);
+console.log("Función goToPreviousPokemon " + buttonFunction.goToPreviousPokemon);
+console.log("Función goToNextPokemon " + buttonFunction.goToNextPokemon);
+console.log("Función generationFilter " + filter.generationFilter)
+console.log("Función TypeFilter " + filter.typeFilter)
+console.log("Función weaknessesFilter " + filter.weaknessesFilter)
 console.log(data);
 
 const containerRoot = document.getElementById('root');
