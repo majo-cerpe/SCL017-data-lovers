@@ -1,33 +1,19 @@
-import { example } from './data.js';
+import { buttonFunction } from './data.js';
+import { filter } from './data.js';
 import data from './data/pokemon/pokemon.js';
 
 
-console.log(example);
+console.log(buttonFunction.search);
+console.log(buttonFunction.pokemonProfileDisplay);
+/* console.log(buttonFunction.goToPreviousPokemon);
+console.log(buttonFunction.goToNextPokemon); */
+console.log(filter.generationFilter)
+console.log(filter.typeFilter)
+console.log(filter.weaknessesFilter)
 console.log(data);
 
 const containerRoot = document.getElementById('root');
 
-
-
-/* document.body.onload = addElement;
-function addElement() {
-    //    crea un nuevo div
-    //     y añade contenido
-    var divInputButton = document.createElement("div");
-    divInputButton.className = "divInputButton"
-    var inputSearch = document.createElement("input");
-    inputSearch.value = "Ingresa el nombre de un pokemon";
-    inputSearch.className = "inputSearch"
-    divInputButton.appendChild(inputSearch);
-    var btnSearch = document.createElement("button");
-    btnSearch.type = "button";
-    btnSearch.innerText = "buscar";
-    btnSearch.className = "btnSearch"
-    divInputButton.appendChild(btnSearch);
-    //   //insertar el div entre el root y el container de las cartas
-    containerRoot.insertBefore(divInputButton);
-}
- */
 
 let htmlCode = '';
 
@@ -48,15 +34,15 @@ data.pokemon.forEach(element => {
     containerRoot.innerHTML = htmlCode;
 });
 
+
+document.getElementById('searchButton').addEventListener("click", buttonFunction.search);
+
+
+
 for (let i = 0; i < data.pokemon.length; i++ ){
-document.querySelectorAll(".pokemonCard")[i].addEventListener("click", myFunction);
+document.querySelectorAll(".pokemonCard")[i].addEventListener("click", buttonFunction.pokemonProfileDisplay);
 }
 
-function myFunction(){
-    let clickedPokemonId = event.currentTarget.getAttribute("id");
-    sessionStorage.setItem("clickedPokemonId", clickedPokemonId);
-    window.location.href = "pokemonProfile.html";
-}
 
 
 

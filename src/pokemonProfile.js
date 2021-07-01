@@ -1,8 +1,12 @@
-/* eslint-disable no-prototype-builtins */
-import { example } from './data.js';
+import { buttonFunction } from './data.js';
+import { filter } from './data.js';
 import data from './data/pokemon/pokemon.js';
 
-console.log(example);
+
+console.log(buttonFunction);
+console.log(filter.generationFilter)
+console.log(filter.typeFilter)
+console.log(filter.weaknessesFilter)
 console.log(data);
 
 const containerRoot = document.getElementById('root');
@@ -13,20 +17,38 @@ let htmlCode = ''
     ,nextPokemonIndex = 0
     ,previousPokemonIndex = 0
     ,selectedPokemonName = data.pokemon[selectedPokemonIndex].name
-   ,nextEvolution = data.pokemon[selectedPokemonIndex].evolution.hasOwnProperty('nextEvolution')
-   ,nextEvolutionName = ''
-   ,nextEvolutionCandyCost = ''
+    ,nextEvolution = Object.prototype.hasOwnProperty.call(data.pokemon[selectedPokemonIndex].evolution, 'nextEvolution')
+    ,nextEvolutionName = ''
+    ,nextEvolutionCandyCost = ''
    
-   ,nextNextEvolutionCandyCost  = '' 
+    ,nextNextEvolutionCandyCost  = '' 
    
-   ,prevEvolution = data.pokemon[selectedPokemonIndex].evolution.hasOwnProperty('prevEvolution')
-   ,prevEvolutionName = ''
-   ,prevEvolutionCandyCost = ''
+    ,prevEvolution = Object.prototype.hasOwnProperty.call(data.pokemon[selectedPokemonIndex].evolution, 'prevEvolution')
+    ,prevEvolutionName = ''
+    ,prevEvolutionCandyCost = ''
    
-   ,prevPrevEvolutionName = ''
-   ,prevPrevEvolutionCandyCost = '';
+    ,prevPrevEvolutionName = ''
+    ,prevPrevEvolutionCandyCost = ''
 
+    let nextNextEvolution = false
+    if (nextEvolution==true){
+        nextNextEvolution = Object.prototype.hasOwnProperty.call(data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0], 'nextEvolution') 
+        console.log("nextNextEvolution= " + nextNextEvolution)
+     }
 
+    let prevPrevEvolution = false
+    if (prevEvolution==true){
+        nextNextEvolution = Object.prototype.hasOwnProperty.call(data.pokemon[selectedPokemonIndex].evolution.prevEvolution[0], 'prevEvolution') 
+        console.log("prevPrevEvolution= " + prevPrevEvolution)
+    }
+
+    let nextEvolutionLength = 0
+    if(nextEvolution==true){
+        nextEvolutionLength = data.pokemon[selectedPokemonIndex].evolution.nextEvolution.length
+        console.log("nextEvolutionLength= " + nextEvolutionLength)
+    }
+
+     
 
 switch(clickedPokemonId){
     case "001":
@@ -115,7 +137,7 @@ data.pokemon[selectedPokemonIndex].weaknesses.forEach(weaknesses =>{
                     <h2>${"Evoluciones y costo en caramelos"}</h2>`         
 
 switch (true) {
-    case prevEvolution == false && data.pokemon[selectedPokemonIndex].evolution.nextEvolution.length <=1 && data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0].hasOwnProperty('nextEvolution') == true:
+    case prevEvolution == false && nextEvolutionLength <=1 && nextNextEvolution == true:
         //caso 1: 1° pokemon de una familia con una evolución con una evolución (evolución lineal e.g. Bulbasaur) 
             // o primer pokemon de una familia una evolución con 2 o más evoluciones (evolución mixta e.g. Poliwag)
         nextEvolutionName = data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0].name
@@ -166,7 +188,7 @@ switch (true) {
                 </section>`    
         break;
 
-    case prevEvolution == true && nextEvolution == false && data.pokemon[selectedPokemonIndex].evolution.prevEvolution[0].hasOwnProperty('prevEvolution')== true:
+    case prevEvolution == true && nextEvolution == false && prevPrevEvolution== true:
         //caso 3: 3° pokemon de una familia con una pre evolución con una pre evolucion (e.g. Venusaur)
         prevEvolutionName = data.pokemon[selectedPokemonIndex].evolution.prevEvolution[0].name
         prevEvolutionCandyCost = data.pokemon[selectedPokemonIndex].evolution.prevEvolution[0].candyCost
@@ -188,7 +210,7 @@ switch (true) {
                 </section>`
         break;
     
-    case prevEvolution == false && data.pokemon[selectedPokemonIndex].evolution.nextEvolution.length >= 2:
+    case prevEvolution == false && nextEvolutionLength >= 2:
         //caso 4: 1° pokemon de una familia con evolución ramificada (e.g. Eevee)
         nextEvolutionName = data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0].name
         nextEvolutionCandyCost = data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0].candyCost
@@ -206,7 +228,7 @@ switch (true) {
                 </section>`
         break;
 
-    case prevEvolution == false && data.pokemon[selectedPokemonIndex].evolution.nextEvolution.length <=1 && data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0].hasOwnProperty('nextEvolution') == false: 
+    case prevEvolution == false && nextEvolutionLength <=1 && nextNextEvolution == false: 
         //caso 5: 1° pokemon de una familia con una evolución lineal e.g. Rattata) 
         nextEvolutionName = data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0].name
         nextEvolutionCandyCost = data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0].candyCost
@@ -221,7 +243,7 @@ switch (true) {
                 </section>`
         break;
 
-    case prevEvolution == true && nextEvolution == false && data.pokemon[selectedPokemonIndex].evolution.prevEvolution[0].hasOwnProperty('prevEvolution')== false:
+    case prevEvolution == true && nextEvolution == false && prevPrevEvolution == false:
         //caso 6 : 2° pokemon de una familia de evolucion lineal sin evoluciones (e.g. Raticatte)
             // o segundos pokemones de una familia de evolución ramificada (e.g. Voporeon, Slowbro, Hitmontop) 
         prevEvolutionName = data.pokemon[selectedPokemonIndex].evolution.prevEvolution[0].name
