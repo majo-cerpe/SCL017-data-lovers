@@ -2,10 +2,6 @@ import { operation } from './data.js';
 import data from './data/pokemon/pokemon.js';
 
 
-console.log("Función search " + operation.search);
-console.log("Función pokemonProfileDisplay " + operation.clickedPokemonProfileDisplay);
-console.log("Función goToPreviousPokemon " + operation.goToPreviousPokemon);
-console.log("Función goToNextPokemon " + operation.goToNextPokemon);
 console.log("Función generationFilter " + operation.generationFilter)
 console.log("Función TypeFilter " + operation.typeFilter)
 console.log("Función weaknessesFilter " + operation.weaknessesFilter)

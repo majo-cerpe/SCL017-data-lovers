@@ -2,12 +2,12 @@ import {operation} from '../src/data.js';
 
 
 describe('operation', () => {
-  it('debería ser un objeto', () => {
+  it('should be an object', () => {
     expect(typeof operation).toBe('object');
   });
 
   describe('operation.search', () => {
-    it('debería ser una función', () => {
+    it('should be an function', () => {
       expect(typeof operation.search).toBe('function');
     });
 
@@ -26,7 +26,7 @@ describe('operation', () => {
 
 
   describe('operation.clickedPokemonProfileDisplay', () => {
-    it('debería ser una función', () => {
+    it('should be an function', () => {
       expect(typeof operation.clickedPokemonProfileDisplay).toBe('function');
     });
 

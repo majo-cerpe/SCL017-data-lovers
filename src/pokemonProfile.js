@@ -2,13 +2,8 @@ import { operation } from './data.js';
 import data from './data/pokemon/pokemon.js';
 
 
-console.log("Función search " + operation.search);
-console.log("Función pokemonProfileDisplay " + operation.clickedPokemonProfileDisplay);
 console.log("Función goToPreviousPokemon " + operation.goToPreviousPokemon);
 console.log("Función goToNextPokemon " + operation.goToNextPokemon);
-console.log("Función generationFilter " + operation.generationFilter)
-console.log("Función TypeFilter " + operation.typeFilter)
-console.log("Función weaknessesFilter " + operation.weaknessesFilter)
 console.log(data);
 
 const containerRoot = document.getElementById('root');
@@ -36,19 +31,16 @@ let htmlCode = ''
     let nextNextEvolution = false
     if (nextEvolution==true){
         nextNextEvolution = Object.prototype.hasOwnProperty.call(data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0], 'nextEvolution') 
-        console.log("nextNextEvolution= " + nextNextEvolution)
      }
 
     let prevPrevEvolution = false
     if (prevEvolution==true){
         nextNextEvolution = Object.prototype.hasOwnProperty.call(data.pokemon[selectedPokemonIndex].evolution.prevEvolution[0], 'prevEvolution') 
-        console.log("prevPrevEvolution= " + prevPrevEvolution)
     }
 
     let nextEvolutionLength = 0
     if(nextEvolution==true){
         nextEvolutionLength = data.pokemon[selectedPokemonIndex].evolution.nextEvolution.length
-        console.log("nextEvolutionLength= " + nextEvolutionLength)
     }
 
      
@@ -57,7 +49,7 @@ switch(searchOrClickedPokemonId){
     case "001":
         nextPokemonIndex = selectedPokemonIndex +1;
     htmlCode = 
-        `<div class=nextPokemon>
+        `<div class=prevOrNextButtons>
             <button class=nextPokemonButton>${data.pokemon[nextPokemonIndex].name + " #" + data.pokemon[nextPokemonIndex].num}</button>
         </div>`
     break;
@@ -65,7 +57,7 @@ switch(searchOrClickedPokemonId){
     case "251":
         previousPokemonIndex = selectedPokemonIndex -1;
     htmlCode = 
-        `<div class=prevPokemon>
+        `<div class=prevOrNextButtons>
            <button class=prevPokemonButton>${data.pokemon[previousPokemonIndex].name + " #" + data.pokemon[previousPokemonIndex].num}</button>
         </div>`
     break;
@@ -74,7 +66,7 @@ switch(searchOrClickedPokemonId){
         nextPokemonIndex = selectedPokemonIndex +1;
         previousPokemonIndex = selectedPokemonIndex -1;
     htmlCode = 
-        `<div class=prevNextPokemon>
+        `<div class=prevOrNextButtons>
             <button class=prevPokemonButton>${data.pokemon[previousPokemonIndex].name + " #" + data.pokemon[previousPokemonIndex].num}</button>
             <button class=nextPokemonButton>${data.pokemon[nextPokemonIndex].name + " #" + data.pokemon[nextPokemonIndex].num}</button>
         </div>`
@@ -266,3 +258,5 @@ switch (true) {
     </section>`
  
 containerRoot.innerHTML = htmlCode
+
+
