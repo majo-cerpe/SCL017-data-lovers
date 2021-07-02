@@ -13,6 +13,7 @@ export const operation = {
       window.location.href = "pokemonProfile.html";
       }
     });
+
   }
 
   ,clickedPokemonProfileDisplay: function () {
