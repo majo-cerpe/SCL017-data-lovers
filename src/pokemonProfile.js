@@ -223,8 +223,8 @@ switch (true) {
                 </section>`
         break;
 
-    case prevEvolution == false && nextEvolutionLength <=1 && nextNextEvolution == false: 
-        //caso 5: 1° pokemon de una familia con una evolución lineal e.g. Rattata) 
+    case prevEvolution == false && nextEvolutionLength <=1 && nextEvolution == true  && nextNextEvolution == false: 
+        //caso 5: 1° pokemon de una familia con una evolución lineal (e.g. Rattata) 
         nextEvolutionName = data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0].name
         nextEvolutionCandyCost = data.pokemon[selectedPokemonIndex].evolution.nextEvolution[0].candyCost
         htmlCode += `<div style="display: flex">
@@ -253,6 +253,13 @@ switch (true) {
                     </div>
                 </section>`
         break;
+    
+    case prevEvolution == false && nextEvolution == false:
+        //caso 7 : pokemon único sin evoluciones ni pre evoluciones
+        htmlCode += `<div style="display: flex">
+                        <div>${"No tiene evolucion ni pre evolución"}</div>
+                    </div>
+                </section>`
 }
         `</section>
     </section>`
