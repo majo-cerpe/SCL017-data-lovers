@@ -254,12 +254,13 @@ switch (true) {
                 </section>`
         break;
     
-    case prevEvolution == false && nextEvolution == false:
+    default:
         //caso 7 : pokemon único sin evoluciones ni pre evoluciones
         htmlCode += `<div style="display: flex">
                         <div>${"No tiene evolucion ni pre evolución"}</div>
                     </div>
                 </section>`
+
 }
         `</section>
     </section>`
