@@ -3,12 +3,11 @@
 ## Índice
 
 * [1. Resumen del proyecto](#1-resumen-del-proyecto)
-* [2. Escogiendo el proyecto](#2-escogiendo-el-proyecto)
+* [2. Elección del proyecto](#2-elección-del-proyecto)
 * [3. El Usuario](#3-el-usuario)
-* [4. Prototipado de baja fidelidad](#4-prototipado-de-baja-fidelidad)
-* [5. Prototipado de alta fidelidad](#5-prototipado-de-alta-fidelidad)
-* [6. Codeando](#6-codeando)
-* [7. Principales bloqueos mientras codeaba](#7-principales-bloqueos-mientras-codeaba)
+* [4. Prototipado de interfaz de usuario de baja fidelidad](#4-prototipado-de-interfaz-de-usuario-de-baja-fidelidad)
+* [5. Prototipado de interfaz de usuario de alta fidelidad](#5-prototipado-de-interfaz-de-usuario-de-alta-fidelidad)
+
 
 ***
 
@@ -21,7 +20,7 @@ Página web con formato enciclopedia sobre pokémones y principales característ
 
 ***
 
-## 2. Escogiendo el proyecto
+## 2. Elección del proyecto
 
 Ambas integrantes del equipo de trabajo teníamos claro queríamos trabajar en el proyecto Data Lover y escogimos la temática pensando en las posibilidades que teníamos de ponernos en contacto con usuarios o consumidores de reales de las 4 opciones de info que teníamos disponibles. Debido a los anterior escogimos trabajar la temática de Pokémon Go.
 
@@ -60,14 +59,14 @@ Quiero: tener acceso a un perfil completo del Pokémon seleccionado o buscado.
 Para: Contar con información más detallada sobre características del pokémon seleccionado que me ayuden a mejorar mi rendimiento de juego.
 
 ### Historia de Usuario 4
-Yo como: Jugador habitual de app Pokémon Go.
-Quiero: filtrar Pokemones por debilidades.
-Para: saber qué pokémones son débiles frente a un determinado tipo de pokémon.
-
-### Historia de Usuario 5
 Yo como: Jugador habitual de app Pokémon Go
 Quiero: filtrar Pokemones por tipo.
 Para: saber que pokemones existen por cada tipo.
+
+### Historia de Usuario 5
+Yo como: Jugador habitual de app Pokémon Go.
+Quiero: filtrar Pokemones por debilidades.
+Para: saber qué pokémones son débiles frente a un determinado tipo de pokémon.
 
 ### Historia de Usuario 6
 Yo como: Jugador habitual de app Pokémon Go
@@ -80,6 +79,8 @@ Para: saber cuántos caramelos necesito para hacer evolucionar mis pokémones y 
 
 Realizamos prototipado y test de usabilidad solo en alta fidelidad.
 
+***
+
 ## 5. Prototipado de interfaz de usuario de alta fidelidad
 
 [Link hacia presentacion prototipo final en Figma]
@@ -89,49 +90,45 @@ Realizamos prototipado y test de usabilidad solo en alta fidelidad.
 
 #### Desktop (1440px width)
 
-![firstHighFidelityDesktopPrototypeUserStory1and2](src/img/firstHighFidelityDesktopPrototypeUserStory1and2.jpeg)
-![SecondHighFidelityDesktopPrototypeUserStory1and2](src/img/SecondHighFidelityDesktopPrototypeUserStory1and2.jpeg)
+![firstHighFidelityDesktopPrototypeUserStory1and2](src/img/prototypes/desktop/firstHighFidelityDesktopPrototypeUserStory1and2.jpeg)
+![secondHighFidelityDesktopPrototypeUserStory1and2](src/img/prototypes/desktop/secondHighFidelityDesktopPrototypeUserStory1and2.jpeg)
 
-#### Mobile (890px width)
-![firstHighFidelityMobilePrototypeUserStory1and2](src/img/firstHighFidelityMobilePrototypeUserStory1and2.jpeg)
-![SecondHighFidelityMobilePrototypeUserStory1and2](src/img/SecondHighFidelityMobilePrototypeUserStory1and2.jpeg)
+#### Mobile (414px width)
+![highFidelityMobilePrototypeUserStory1and2](src/img/prototypes/mobile/highFidelityMobilePrototypeUserStory1and2.jpeg)
 
 
 ### Prototipo Historia de Usuario 3 y 6
 
-![firstHighFidelityDesktopPrototypeUserStory3and6](src/img/firstHighFidelityDesktopPrototypeUserStory3and6.jpeg)
-![SecondHighFidelityDesktopPrototypeUserStory3and6](src/img/SecondHighFidelityDesktopPrototypeUserStory3and6.jpeg)
+#### Desktop (1440px width)
+![firstHighFidelityDesktopPrototypeUserStory3and6](src/img/prototypes/desktop/firstHighFidelityDesktopPrototypeUserStory3and6.jpeg)
+![secondHighFidelityDesktopPrototypeUserStory3and6](src/img/prototypes/desktop/secondHighFidelityDesktopPrototypeUserStory3and6.jpeg)
 
-#### Mobile (890px width)
-![firstHighFidelityMobilePrototypeUserStory3and6](src/img/firstHighFidelityMobilePrototypeUserStory3and6.jpeg)
-![SecondHighFidelityMobilePrototypeUserStory3and6](src/img/SecondHighFidelityMobilePrototypeUserStory3and6.jpeg)
+#### Mobile (414px width)
+![highFidelityMobilePrototypeUserStory3](src/img/prototypes/mobile/highFidelityMobilePrototypeUserStory3.jpeg)
+![highFidelityMobilePrototypeUserStory6](src/img/prototypes/mobile/highFidelityMobilePrototypeUserStory6.jpeg)
 
 
-### Prototipo Historia de Usuario 4 y 5
+### Prototipo Historia de Usuario 4
 
-![firstHighFidelityDesktopPrototypeUserStory4and5](src/img/firstHighFidelityDesktopPrototypeUserStory4and5.jpeg)
-![SecondHighFidelityDesktopPrototypeUserStory4and5](src/img/SecondHighFidelityDesktopPrototypeUserStory4and5.jpeg)
+#### Desktop (1440px width)
+![firstHighFidelityDesktopPrototypeUserStory4](src/img/prototypes/desktop/firstHighFidelityDesktopPrototypeUserStory4.jpeg)
+![secondHighFidelityDesktopPrototypeUserStory4](src/img/prototypes/desktop/secondHighFidelityDesktopPrototypeUserStory4.jpeg)
 
-#### Mobile (890px width)
-![firstHighFidelityMobilePrototypeUserStory4and5](src/img/firstHighFidelityMobilePrototypeUserStory4and5.jpeg)
-![SecondHighFidelityMobilePrototypeUserStory4and5](src/img/SecondHighFidelityMobilePrototypeUserStory4and5.jpeg)
+#### Mobile (414px width)
+![highFidelityMobilePrototypeUserStory4](src/img/prototypes/mobile/highFidelityMobilePrototypeUserStory4.jpeg)
+
+
+### Prototipo Historia de Usuario 5
+
+#### Desktop (1440px width)
+![firstHighFidelityDesktopPrototypeUserStory5](src/img/prototypes/desktop/firstHighFidelityDesktopPrototypeUserStory5.jpeg)
+![secondHighFidelityDesktopPrototypeUserStory5](src/img/prototypes/desktop/secondHighFidelityDesktopPrototypeUserStory5.jpeg)
+
+#### Mobile (414px width)
+![highFidelityMobilePrototypeUserStory5](src/img/prototypes/mobile/highFidelityMobilePrototypeUserStory5jpg.jpeg)
 
  
 Cabe destacar que el desarrollo de todos estos prototipos se realizó en función del trabajo por historia de usuario, es decir, se prototipó la primera historia de usuario; se codeó la historia y, luego de comprobar el cumplimiento de los criterios de aceptación y definition of done de la misma, se procedió a prototipar la segunda historia de usuario y así sucesivamente.
 
 ***
 
-## 6. Codeando
-
-<!-- Breve reseña del orden en qué se fue realizando el trabajo (e.g trabajo por historia de usuario); forma de metodología y herramientas de planificación utilizadas (e.g. Trello); la distribución de tareas entre los miembros del equipo, etc.-->
-
-
-***
-
-## 7. Principales bloqueos
-
-1.
-2.
-3.
-4.
-5.
