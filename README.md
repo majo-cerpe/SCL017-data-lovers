@@ -90,40 +90,40 @@ Realizamos prototipado y test de usabilidad solo en alta fidelidad.
 
 #### Desktop (1440px width)
 
-![firstHighFidelityDesktopPrototypeUserStory1and2](src\img\prototypes\desktop\highFidelityDesktopPrototypeUserStory1and2.jpg)
+![firstHighFidelityDesktopPrototypeUserStory1and2](src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory1and2.jpg)
 
 #### Mobile (414px width)
-![highFidelityMobilePrototypeUserStory1and2](src\img\prototypes\mobile\highFidelityMobilePrototypeUserStory1and2.jpg)
+![highFidelityMobilePrototypeUserStory1and2](src/img/prototypes/mobile/highFidelityMobilePrototypeUserStory1and2.jpg)
 
 
 ### Prototipo Historia de Usuario 3 y 6
 
 #### Desktop (1440px width)
-![firstHighFidelityDesktopPrototypeUserStory3and6](src\img\prototypes\desktop\firstHighFidelityDesktopPrototypeUserStory3and6.jpg)
-![secondHighFidelityDesktopPrototypeUserStory3and6](src\img\prototypes\desktop\secondHighFidelityDesktopPrototypeUserStory3and6.jpg)
+![firstHighFidelityDesktopPrototypeUserStory3and6](src/img/prototypes/desktop/firstHighFidelityDesktopPrototypeUserStory3and6.jpg)
+![secondHighFidelityDesktopPrototypeUserStory3and6](src/img/prototypes/desktop/secondHighFidelityDesktopPrototypeUserStory3and6.jpg)
 
 #### Mobile (414px width)
-![highFidelityMobilePrototypeUserStory3](src\img\prototypes\mobile\highFidelityMobilePrototypeUserStory3.jpg)
-![highFidelityMobilePrototypeUserStory6](src\img\prototypes\mobile\highFidelityMobilePrototypeUserStory6.jpg)
+![highFidelityMobilePrototypeUserStory3](src/img/prototypes/mobile/highFidelityMobilePrototypeUserStory3.jpg)
+![highFidelityMobilePrototypeUserStory6](src/img/prototypes/mobile/highFidelityMobilePrototypeUserStory6.jpg)
 
 
 ### Prototipo Historia de Usuario 4
 
 #### Desktop (1440px width)
-![firstHighFidelityDesktopPrototypeUserStory4](src\img\prototypes\desktop\highFidelityDesktopPrototypeUserStory4.jpg)
+![firstHighFidelityDesktopPrototypeUserStory4](src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory4.jpg)
 
 
 #### Mobile (414px width)
-![highFidelityMobilePrototypeUserStory4](src\img\prototypes\mobile\highFidelityMobilePrototypeUserStory4.jpg)
+![highFidelityMobilePrototypeUserStory4](src/img/prototypes/mobile/highFidelityMobilePrototypeUserStory4.jpg)
 
 
 ### Prototipo Historia de Usuario 5
 
 #### Desktop (1440px width)
-![firstHighFidelityDesktopPrototypeUserStory5](src\img\prototypes\desktop\highFidelityDesktopPrototypeUserStory5.jpg)
+![firstHighFidelityDesktopPrototypeUserStory5](src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory5.jpg)
 
 #### Mobile (414px width)
-![highFidelityMobilePrototypeUserStory5](src\img\prototypes\mobile\highFidelityMobilePrototypeUserStory6.jpg)
+![highFidelityMobilePrototypeUserStory5](src/img/prototypes/mobile/highFidelityMobilePrototypeUserStory5.jpg)
 
  
 Cabe destacar que el desarrollo de todos estos prototipos se realizó en función del trabajo por historia de usuario, es decir, se prototipó la primera historia de usuario; se codeó la historia y, luego de comprobar el cumplimiento de los criterios de aceptación y definition of done de la misma, se procedió a prototipar la segunda historia de usuario y así sucesivamente.
