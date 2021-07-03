@@ -83,8 +83,11 @@ Realizamos prototipado y test de usabilidad solo en alta fidelidad.
 
 ## 5. Prototipado de interfaz de usuario de alta fidelidad
 
-[Link hacia presentacion prototipo final en Figma]
-(https://www.figma.com/proto/HoG8PBmfhaZnWs6ZCz9BaJ/Pokepedia-Go?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1)
+[Link hacia presentacion prototipo final desktop en Figma]
+(https://www.figma.com/proto/HoG8PBmfhaZnWs6ZCz9BaJ/Pokepedia-Go?node-id=334%3A136&scaling=min-zoom&page-id=330%3A314)
+
+[Link hacia presentacion prototipo final mobile en Figma]
+(https://www.figma.com/proto/HoG8PBmfhaZnWs6ZCz9BaJ/Pokepedia-Go?node-id=330%3A254&scaling=scale-down&page-id=330%3A229)
 
 ### Prototipo Historia de Usuario 1 y 2
 
@@ -99,10 +102,7 @@ Realizamos prototipado y test de usabilidad solo en alta fidelidad.
 ### Prototipo Historia de Usuario 3 y 6
 
 #### Desktop (1440px width)
-##### Primer prototipo
-![firstHighFidelityDesktopPrototypeUserStory3and6](src/img/prototypes/desktop/firstHighFidelityDesktopPrototypeUserStory3and6.jpg)
-##### Segundo prototipo post testing
-![secondHighFidelityDesktopPrototypeUserStory3and6](src/img/prototypes/desktop/secondHighFidelityDesktopPrototypeUserStory3and6.jpg)
+![highFidelityDesktopPrototypeUserStory3and6](src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory3and6.jpg)
 
 #### Mobile (414px width)
 ![highFidelityMobilePrototypeUserStory3](src/img/prototypes/mobile/highFidelityMobilePrototypeUserStory3.jpg)
