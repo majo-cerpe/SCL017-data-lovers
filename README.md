@@ -90,7 +90,7 @@ Realizamos prototipado y test de usabilidad solo en alta fidelidad.
 
 #### Desktop (1440px width)
 
-![firstHighFidelityDesktopPrototypeUserStory1and2](src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory1and2.jpg)
+![highFidelityDesktopPrototypeUserStory1and2](src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory1and2.jpg)
 
 #### Mobile (414px width)
 ![highFidelityMobilePrototypeUserStory1and2](src/img/prototypes/mobile/highFidelityMobilePrototypeUserStory1and2.jpg)
@@ -99,7 +99,9 @@ Realizamos prototipado y test de usabilidad solo en alta fidelidad.
 ### Prototipo Historia de Usuario 3 y 6
 
 #### Desktop (1440px width)
+##### Primer prototipo
 ![firstHighFidelityDesktopPrototypeUserStory3and6](src/img/prototypes/desktop/firstHighFidelityDesktopPrototypeUserStory3and6.jpg)
+##### Segundo prototipo post testing
 ![secondHighFidelityDesktopPrototypeUserStory3and6](src/img/prototypes/desktop/secondHighFidelityDesktopPrototypeUserStory3and6.jpg)
 
 #### Mobile (414px width)
@@ -110,7 +112,7 @@ Realizamos prototipado y test de usabilidad solo en alta fidelidad.
 ### Prototipo Historia de Usuario 4
 
 #### Desktop (1440px width)
-![firstHighFidelityDesktopPrototypeUserStory4](src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory4.jpg)
+![highFidelityDesktopPrototypeUserStory4](src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory4.jpg)
 
 
 #### Mobile (414px width)
@@ -120,7 +122,7 @@ Realizamos prototipado y test de usabilidad solo en alta fidelidad.
 ### Prototipo Historia de Usuario 5
 
 #### Desktop (1440px width)
-![firstHighFidelityDesktopPrototypeUserStory5](src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory5.jpg)
+![highFidelityDesktopPrototypeUserStory5](src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory5.jpg)
 
 #### Mobile (414px width)
 ![highFidelityMobilePrototypeUserStory5](src/img/prototypes/mobile/highFidelityMobilePrototypeUserStory5.jpg)
