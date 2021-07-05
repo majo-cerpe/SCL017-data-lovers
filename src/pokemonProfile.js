@@ -4,7 +4,7 @@ import data from './data/pokemon/pokemon.js';
 
 console.log("Función goToPreviousPokemon " + operation.goToPreviousPokemon);
 console.log("Función goToNextPokemon " + operation.goToNextPokemon);
-console.log(data);
+
 
 const containerRoot = document.getElementById('root');
 let htmlCode = ''
