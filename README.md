@@ -91,6 +91,13 @@ Realizamos prototipado y test de usabilidad solo en alta fidelidad.
 
 ### Prototipo Historia de Usuario 1 y 2
 
+<details>
+<summary>Desktop (1440px width)</summary>
+<br>
+![highFidelityDesktopPrototypeUserStory1and2](src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory1and2.jpg)
+</details>
+
+
 #### Desktop (1440px width)
 
 ![highFidelityDesktopPrototypeUserStory1and2](src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory1and2.jpg)
