@@ -35,7 +35,7 @@ let htmlCode = ''
 
     let prevPrevEvolution = false
     if (prevEvolution==true){
-        nextNextEvolution = Object.prototype.hasOwnProperty.call(data.pokemon[selectedPokemonIndex].evolution.prevEvolution[0], 'prevEvolution') 
+        prevPrevEvolution = Object.prototype.hasOwnProperty.call(data.pokemon[selectedPokemonIndex].evolution.prevEvolution[0], 'prevEvolution') 
     }
 
     let nextEvolutionLength = 0
