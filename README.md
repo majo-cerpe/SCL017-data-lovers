@@ -93,9 +93,9 @@ Realizamos prototipado y test de usabilidad solo en alta fidelidad.
 
 <details>
 <summary>Desktop (1440px width)</summary>
-<br>
-![highFidelityDesktopPrototypeUserStory1and2](src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory1and2.jpg)
+<img src="src/img/prototypes/desktop/highFidelityDesktopPrototypeUserStory1and2.jpg">
 </details>
+
 
 
 #### Desktop (1440px width)
